@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build --turbopack --no-lint",
     "start": "next start",
     "lint": "eslint"
   },
@@ -37,5 +37,9 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vfile": "6.0.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/SoraKumo001/next-unified",
+  "author": "SoraKumo <info@croud.jp>",
+  "license": "MIT"
 }
