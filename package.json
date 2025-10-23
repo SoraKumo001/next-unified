@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:web-pack": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
